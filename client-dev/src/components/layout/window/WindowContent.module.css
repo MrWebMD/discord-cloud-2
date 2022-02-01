@@ -1,0 +1,13 @@
+.windowContent {
+  flex: 1 0 auto;
+  background-color: var(--theme-layout-primary);
+  /* CSS isnt allowing a flexible child container with scrolling
+    unless that parent has a fixed height. Hopefully we can fix
+    this later.
+  */
+  height: calc(100vh - 33px); 
+}
+
+.fullHeight {
+  height:100vh;
+}

@@ -1,0 +1,10 @@
+.copyButton {
+  text-decoration: none;
+  color: var(--theme-ui-noeyesore);
+  padding: 3px 10px 3px 10px;
+  background-color: var(--theme-ui-secondary);
+  cursor: pointer;
+  border-radius: 8px;
+  border: 0px;
+  margin: 0px 10px 0px 10px;
+}

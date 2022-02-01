@@ -1,0 +1,30 @@
+:root {
+  --theme-layout-primary: #202225;
+  --theme-layout-primary-dark: #1a1c1f;
+  --theme-layout-secondary: #36393f;
+  --theme-layout-secondary-bright: #4f535a;
+  --theme-text-primary-dark: #989a9c;
+  /* --theme-ui-secondary: #588052; */
+  --theme-ui-secondary: #68ad5e;
+  --theme-ui-secondary-bright: #9de293;
+  --theme-ui-button-bright: #3b55a5;
+  --theme-ui-button-bright-hover: #6683da;
+  --theme-ui-button-dark: #202225;
+  --theme-ui-noeyesore:#c4c4c4;
+  /* 
+  layout-dark
+  layout-light
+  button-bg
+  primary-panel-bg
+  Layout
+  Component
+  */
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height:10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--theme-layout-secondary);
+  border-radius: 10px;
+}

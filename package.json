@@ -1,0 +1,24 @@
+{
+  "name": "discord-cloud-2",
+  "version": "1.0.0",
+  "description": "A discord application that allows you to browse uploaded files on discord community servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dom#0107 Discord",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "axios": "^0.24.0",
+    "concurrently": "^6.5.0",
+    "cors": "^2.8.5",
+    "discord.js": "^13.3.1",
+    "express": "^4.17.2",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.7.1",
+    "jszip-utils": "^0.1.0",
+    "nodemon": "^2.0.15",
+    "react-scripts": "^5.0.0"
+  }
+}

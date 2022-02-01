@@ -1,0 +1,13 @@
+.browserBody {
+  flex: 1 0 auto;
+  overflow: hidden;
+  max-height: -webkit-fill-available;
+  /* max-width: -webkit-fill-available; */
+  display: flex;
+  flex-direction: row;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: space-between;
+}

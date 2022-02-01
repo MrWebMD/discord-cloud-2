@@ -1,0 +1,32 @@
+.browserToolbar {
+  padding: 20px 0px 20px 20px;
+  flex: 0 1 auto;
+  /* max-width: -moz-fit-content; */
+  /* max-width: initial; */
+  /* width: min-content; */
+  /* border-bottom: 1px solid grey; */
+  display: flex;
+  flex-direction: row;
+  max-inline-size: fit-content;
+  justify-content: flex-start;
+  background-color: #1a1b1d;
+  border-radius: 20px;
+  overflow-x:scroll;
+  overflow-y:hidden;
+  margin-bottom: 10px;
+}
+.browserToolbar section {
+  display: flex;
+  flex-direction: column;
+  min-width: fit-content;
+  padding: 0px 10px 10px 10px;
+}
+.browserToolbar section:not(:first-child) {
+  border-left: 2px solid #1a1b1d;
+}
+.browserToolbar section p {
+  text-align: center;
+  color: grey;
+  padding: 0;
+  margin: 0px 0px 10px 0px;
+}

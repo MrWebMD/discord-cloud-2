@@ -1,0 +1,26 @@
+.bubble{
+  width:55px;
+  height:55px;
+  border:0px;
+  border-radius:50%;
+  background-color: var(--theme-layout-secondary);
+  text-align: center;
+  margin:10px 7px 10px 7px;
+  transition:background .2s ease-in-out 0s;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+  user-select: none;
+  background-size:cover;
+  background-repeat:no-repeat;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 0 auto;
+  
+}
+.bubble:hover{
+  background-color: var(--theme-layout-secondary-bright);
+}
+.bubbleText {
+  color:white;
+  font-size:16px;
+}

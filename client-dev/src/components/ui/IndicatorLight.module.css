@@ -1,0 +1,9 @@
+.indicator {
+  width:20px;
+  height:20px;
+  margin:0px 5px 0px 5px;
+  background-color: rgba(0,0,0,0);
+  transition: all 0.15s ease-in-out 0s;
+  border-radius:50%;
+  border: 2px solid var(--theme-layout-primary-dark);;
+}

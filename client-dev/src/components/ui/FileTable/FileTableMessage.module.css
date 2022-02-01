@@ -1,0 +1,16 @@
+.tableMessage {
+  flex-basis: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: var(--theme-layout-primary-dark);
+  flex:1 0 auto;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tableMessage img {
+  max-width:400px;
+  width:60%;
+}

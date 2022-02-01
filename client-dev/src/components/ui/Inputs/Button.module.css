@@ -1,0 +1,27 @@
+.button{
+  text-align: center;
+  background-color:rgba(0,0,0,0);
+  padding:2px 13px 2px 13px;
+  min-width:0px;
+  margin:2px 0px 2px 0px;
+  border: 0px;
+  color: var(--theme-ui-noeyesore);
+  font-weight:400;
+  font-size:14px;
+  transition:color .2s ease-in-out 0s;
+  cursor: pointer;
+}
+.button:hover {
+  color: white;
+}
+.button:disabled, .button[disabled]{
+  /* border: 1px solid #999999; */
+  /* background-color: red; */
+  /* color: #666666; */
+  opacity:0.2;
+  cursor: progress;
+}
+.buttonChildWrapper {
+  margin-left:10px;
+  font-size:20px;
+}
